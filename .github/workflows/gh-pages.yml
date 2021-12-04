@@ -13,9 +13,6 @@ jobs:
       - name: Installing dependencies
         run: npm ci
 
-      - name: node-sass rebuild
-        run: npm rebuild node-sass
-
       - name: Building
         run: npm run build
 
