@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@main
 
       - name: Installing dependencies
-        run: npm ci
+        run: npm ci, npm rebuild node-sass
 
       - name: Building
         run: npm run build
